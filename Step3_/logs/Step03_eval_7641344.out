@@ -1,0 +1,17 @@
+Running SLURM prolog script on indigo52.cluster.local
+===============================================================================
+Job started on Mon Aug  4 18:07:20 BST 2025
+Job ID          : 7641344
+Job name        : Step03_eval
+WorkDir         : /mainfs/scratch/ym4c23/Mic/Step3_
+Command         : /mainfs/scratch/ym4c23/Mic/Step3_/step03_eval.slurm
+Partition       : gpu
+Num hosts       : 1
+Num cores       : 4
+Num of tasks    : 1
+Hosts allocated : indigo52
+Job Output Follows ...
+===============================================================================
+Job started on Mon Aug  4 18:07:29 BST 2025
+Running on indigo52
+CUDA devices: 0

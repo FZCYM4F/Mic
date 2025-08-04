@@ -1,0 +1,60 @@
+Running SLURM prolog script on indigo58.cluster.local
+===============================================================================
+Job started on Thu Jul 31 20:43:36 BST 2025
+Job ID          : 7628987
+Job name        : Step02_train
+WorkDir         : /mainfs/scratch/ym4c23/Mic/Step2_vary_distance
+Command         : /mainfs/scratch/ym4c23/Mic/Step2_vary_distance/step02_train.slurm
+Partition       : gpu
+Num hosts       : 1
+Num cores       : 4
+Num of tasks    : 1
+Hosts allocated : indigo58
+Job Output Follows ...
+===============================================================================
+Job started on Thu Jul 31 20:43:45 BST 2025
+Running on indigo58
+CUDA devices: 0
+Device used: cuda
+Epoch 01/20 - Loss: 0.3719
+Epoch 02/20 - Loss: 0.1772
+Epoch 03/20 - Loss: 0.1196
+Epoch 04/20 - Loss: 0.0892
+Epoch 05/20 - Loss: 0.0738
+Epoch 06/20 - Loss: 0.0621
+Epoch 07/20 - Loss: 0.0637
+Epoch 08/20 - Loss: 0.0555
+Epoch 09/20 - Loss: 0.0524
+Epoch 10/20 - Loss: 0.0510
+Epoch 11/20 - Loss: 0.0491
+Epoch 12/20 - Loss: 0.0458
+Epoch 13/20 - Loss: 0.0429
+Epoch 14/20 - Loss: 0.0439
+Epoch 15/20 - Loss: 0.0420
+Epoch 16/20 - Loss: 0.0410
+Epoch 17/20 - Loss: 0.0368
+Epoch 18/20 - Loss: 0.0362
+Epoch 19/20 - Loss: 0.0345
+Epoch 20/20 - Loss: 0.0321
+Model saved to mamba_angle_model.pt
+Job finished on Thu Jul 31 21:38:13 BST 2025
+==============================================================================
+Running epilogue script on indigo58.
+
+Submit time  : 2025-07-31T19:51:38
+Start time   : 2025-07-31T20:43:35
+End time     : 2025-07-31T21:38:13
+Elapsed time : 00:54:38 (Timelimit=2-02:00:00)
+
+Job ID: 7628987
+Cluster: i5
+User/Group: ym4c23/fp
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 01:47:06
+CPU Efficiency: 49.01% of 03:38:32 core-walltime
+Job Wall-clock time: 00:54:38
+Memory Utilized: 1.68 GB
+Memory Efficiency: 0.00% of 16.00 B
+

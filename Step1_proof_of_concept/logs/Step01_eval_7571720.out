@@ -1,0 +1,42 @@
+Running SLURM prolog script on indigo52.cluster.local
+===============================================================================
+Job started on Sun Jul 13 08:45:45 BST 2025
+Job ID          : 7571720
+Job name        : Step01_eval
+WorkDir         : /mainfs/scratch/ym4c23/Mic/Step1_proof_of_concept
+Command         : /mainfs/scratch/ym4c23/Mic/Step1_proof_of_concept/step01_eval.slurm
+Partition       : gpu
+Num hosts       : 1
+Num cores       : 4
+Num of tasks    : 1
+Hosts allocated : indigo52
+Job Output Follows ...
+===============================================================================
+Job started on Sun Jul 13 08:45:53 BST 2025
+Running on indigo52
+CUDA devices: 0
+angular loss: 0.0058
+
+True angles: [-1.571, -1.047, -0.524, 0.0, 0.524]
+Pred angles: [4.744, -1.168, -0.578, -0.103, 0.578]
+Job finished on Sun Jul 13 08:51:39 BST 2025
+==============================================================================
+Running epilogue script on indigo52.
+
+Submit time  : 2025-07-12T21:51:12
+Start time   : 2025-07-13T08:45:45
+End time     : 2025-07-13T08:51:39
+Elapsed time : 00:05:54 (Timelimit=10:00:00)
+
+Job ID: 7571720
+Cluster: i5
+User/Group: ym4c23/fp
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:06:18
+CPU Efficiency: 26.69% of 00:23:36 core-walltime
+Job Wall-clock time: 00:05:54
+Memory Utilized: 1.14 GB
+Memory Efficiency: 0.00% of 16.00 B
+
